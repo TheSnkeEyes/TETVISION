@@ -1,0 +1,38 @@
+.Header {
+    width: 100vw;
+}
+
+.Header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.Header nav ul {
+    margin-left: -400px;
+    font-size: 1.15em;
+}
+
+.Header nav ul li {
+    list-style-type: none;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.profile_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.profile_icon i {
+    font-size: 1.55em;
+}
+
+.search_icon{
+    font-size: 2em;
+    cursor: pointer;
+}
