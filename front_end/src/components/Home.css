@@ -1,0 +1,45 @@
+.Home {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(270deg, rgba(4,0,15,1) 0%, rgba(19,0,51,1) 77%);
+    color: white;
+}
+
+
+.motivasion {
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    padding: 10px;
+    text-align: right;
+    width: 960px;
+}
+
+.motivasion h1 {
+    font-size: 6em;
+    text-align: right;
+}
+
+.motivasion h3 {
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+
+.motivasion button {
+    font-size: 2.25em;
+    padding: 20px;
+    background-color: rgb(255, 196, 0);
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 70px;
+    transition: all .3s;
+}
+
+.motivasion button:hover {
+    background: none;
+    border: 1px dashed rgb(255, 196, 0);
+    color: rgb(255, 196, 0);
+}
+
