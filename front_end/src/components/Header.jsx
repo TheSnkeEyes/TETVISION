@@ -13,7 +13,7 @@ function Header() {
           </div>
 
           <ul className='flex'>
-            <li>Home</li>
+            <li>НАЧАЛО</li>
             <li>ОНЛАЙН ПАКЕТИ</li>
             <li>КОЙ Е ТАНЖУ ?</li>
             <li>КОНТАКТИ</li>
