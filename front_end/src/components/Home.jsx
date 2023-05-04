@@ -6,9 +6,9 @@ function Home() {
     <div>
       <div className="Home">
         <div className='motivasion'>
-            <h1>БЪДИ КОНГ СЪС ТАНЖУ</h1>
-            <h3>Нека заедно напишем вашата история за промяна !</h3>
-            <button>ЗА ПОДКРЕПА</button>
+            <h1>Влез във форма с мен</h1>
+            <h3>Нека заедно напишем вашата история за промяна!</h3>
+            <button>Пиши ми</button>
         </div>
       </div>
     </div>
