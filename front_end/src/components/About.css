@@ -85,4 +85,5 @@
 
 .about_section button:hover {
     border: 1px solid #ff4a38;
+    background: none;
 }
