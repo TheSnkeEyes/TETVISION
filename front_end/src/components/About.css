@@ -1,0 +1,88 @@
+.profesional_plans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profesional_plans h1 {
+    font-size: 4em;
+    letter-spacing: -3px;
+}
+.program_info {
+    display: flex;
+    align-items: center;
+}
+
+.program_info ul{
+    font-size: 1.35em;
+    list-style-type: circle;
+    color: rgba(255, 255, 255, 0.692);
+}
+
+.grid{
+    display: flex;
+    gap: 10px;
+}
+
+.grid_template{
+    position: relative;
+    border-bottom: 1px solid white;
+    padding: 30px;
+    font-size: 1.35em;
+    margin-bottom: 50px;
+    width: 250px;
+    text-align: center;
+}
+
+.grid_template::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid white;
+    bottom: -10px;
+    right: 50%;
+}
+
+.about_template{
+    display: flex;
+}
+.about_section{
+    width: 50%;
+    padding: 20px;
+
+}
+
+.about_section h1 {
+    width: 500px;
+    text-align: right;
+    padding: 100px;
+}
+
+.about_section h1 span {
+    color: #ff4a38;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.about_section p {
+    font-size: 1.35em;
+    margin-left: 100px;
+}
+
+
+.about_section button {
+    padding: 25px;
+    font-size: 2em;
+    background-color: #ff4a38;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 120px;
+}
+
+.about_section button:hover {
+    border: 1px solid #ff4a38;
+}
