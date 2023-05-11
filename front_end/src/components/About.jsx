@@ -1,5 +1,6 @@
 import React from 'react'
-import '../components/About.css'
+import '../components/About.css';
+import { logoImages } from '../helper/images'
 
 function About() {
   return (
@@ -57,6 +58,23 @@ function About() {
         </div>
         </div>
         
+      </div>
+      <div className="programs_section">
+        <div className="training_tempalte">
+          <div className="programs training_program">
+            
+          </div>
+          <div className="programs training_program">
+
+          </div>
+          <div className="programs training_program">
+
+          </div>
+          <div className="programs training_program">
+
+          </div>
+
+        </div>
       </div>
     </div>
   )

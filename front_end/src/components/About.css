@@ -87,3 +87,33 @@
     border: 1px solid #ff4a38;
     background: none;
 }
+
+.programs_section {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    
+}
+
+.training_tempalte {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.programs {
+    width: 420px;
+    height: 700px;
+    cursor: pointer;
+    background-image: url(../assets/images/test_img.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all .2s ease-out;     
+}
+
+.programs:hover{
+    background-size: 150%;
+}
