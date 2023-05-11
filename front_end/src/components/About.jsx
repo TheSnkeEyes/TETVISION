@@ -66,7 +66,6 @@ function About() {
       <div className="programs_section">
         <div className="training_tempalte">
           <div className="programs training_program">
-            
             <div className="layout"></div>
             <div className="showing_line"><span>ТРЕНИРОВАЧНА ПРОГРАМА</span></div>
           </div>
