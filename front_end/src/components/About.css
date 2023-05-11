@@ -48,11 +48,26 @@
 
 .about_template{
     display: flex;
+    margin-top: 200px;
 }
+
+.about_img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.about_img img {
+    width: 700px;
+}
+
 .about_section{
     width: 50%;
     padding: 20px;
-
+    
 }
 
 .about_section h1 {
@@ -92,7 +107,7 @@
     width: 100%;
     padding: 30px;
     display: flex;
-    
+    margin-top: 200px;
 }
 
 .training_tempalte {
