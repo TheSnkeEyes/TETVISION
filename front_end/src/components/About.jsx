@@ -66,17 +66,48 @@ function About() {
       <div className="programs_section">
         <div className="training_tempalte">
           <div className="programs training_program">
-            <div className="layout"></div>
-            <div className="showing_line"><span>ТРЕНИРОВАЧНА ПРОГРАМА</span></div>
+            <div className="layout">
+              <div className="showing_line">
+                  <span>ТРЕНИРОВАЧНА ПРОГРАМА</span>
+              </div>
+              <div id='layout_span'>
+                <span >ВИЖ <i class="fa-solid fa-arrow-right-long"></i></span>
+              </div>
+              
+            </div>
+            
+            
           </div>
           <div className="programs training_program">
-            <div className="layout"></div>
+            <div className="layout">
+            <div className="showing_line">
+                  <span>ОЩЕ МИСЛЯ</span>
+              </div>
+              <div id='layout_span'>
+                <span >ВИЖ <i class="fa-solid fa-arrow-right-long"></i></span>
+              </div>
+            </div>
           </div>
           <div className="programs training_program">
-            <div className="layout"></div>
+            <div className="layout">
+              <div className="showing_line">
+                  <span>ЩЕ ГО ИЗМИСЛЯ</span>
+              </div>
+              <div id='layout_span'>
+                <span >ВИЖ <i class="fa-solid fa-arrow-right-long"></i></span>
+              </div>
+            </div>
+            
           </div>
           <div className="programs training_program">
-            <div className="layout"></div>
+            <div className="layout">
+            <div className="showing_line">
+                  <span>ИЗМИСЛИХ ГОО</span>
+              </div>
+              <div id='layout_span'>
+                <span >ВИЖ <i class="fa-solid fa-arrow-right-long"></i></span>
+              </div>
+            </div>
           </div>
 
         </div>

@@ -148,16 +148,40 @@
     opacity: .7;
 }   
 
-.showing_line span {
+.layout .showing_line span {
     transition: all .2s ease-out;
 }
+
+#layout_span {
+    position: absolute;
+    bottom: -100px;
+    left: 40%;
+    font-size: 1.5em;
+    border-bottom: 1px solid #ff4a38;
+    width: 100px;
+    text-align: center;
+    padding-bottom: 5px;
+    display: none;
+    transition: all .2s ease-out;
+}
+
+#layout_span:hover {
+    width: 120px;
+}
+
+
+.layout:hover> #layout_span {
+    display: block;
+    bottom: 20px;
+}
+
 
 .layout:hover{
     backdrop-filter: blur(2px);
 }
 
 
-.programs:hover > .showing_line span{
+.programs:hover > .layout .showing_line span{
     margin-top: -100px;
 } 
 
