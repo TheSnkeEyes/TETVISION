@@ -2,6 +2,7 @@ import React from 'react';
 import '../components/Transforms.css'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { logoImages } from '../helper/images';
 
 
 
@@ -11,15 +12,15 @@ function Transforms() {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 5
+      items: 1
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 1
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2
+      items: 1
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -38,33 +39,21 @@ function Transforms() {
             <button>КЛИКНИ ТУК</button>
         </div>
         <div className="transform_slider">
-        <Carousel responsive={responsive}>
-          <div className='slider_card'>
-              
+          <Carousel responsive={responsive}>
+            <div className='slider_card'>
+                <img src={logoImages.bodyTransforme.body1} alt="" srcset="" />
+            </div>
+            <div className='slider_card'>
+                <img src={logoImages.bodyTransforme.body2} alt="" />
 
-          </div>
-          <div className='slider_card'>
-              
+            </div>
+            <div className='slider_card'>
+                <img src={logoImages.bodyTransforme.body3} alt="" />
 
-          </div>
-          <div className='slider_card'>
-              
-
-          </div>
-          <div className='slider_card'>
-              
-
-          </div>
-          <div className='slider_card'>
-              
-
-          </div>
-          <div className='slider_card'>
-              
-
-          </div>
-          
-        </Carousel>
+            </div>
+            
+            
+          </Carousel>
         </div>    
     </div>
   )
