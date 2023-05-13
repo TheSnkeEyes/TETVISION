@@ -37,3 +37,22 @@
     width: 60%;
     height: 50vh;
 }
+
+.react-multi-carousel-list {
+    margin: 30px;
+    margin-right: 100px;
+    background-color: red;
+    width: 900px;
+}
+
+.slider_card {
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    background-image: url(../assets/images/test_img.jpg);
+    background-size: cover;
+}
+
+.react-multiple-carousel__arrow{
+    background: #ff4a38;
+}

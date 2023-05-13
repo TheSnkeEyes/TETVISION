@@ -1,9 +1,34 @@
 import React from 'react';
 import '../components/Transforms.css'
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+
+
 
 
 function Transforms() {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1
+    }
+  };
+
   return (
+
     <div className='transforms_container'>
         <div className="trasform_description">
             <h1>BE KONG Предизвикатество</h1>
@@ -13,7 +38,33 @@ function Transforms() {
             <button>КЛИКНИ ТУК</button>
         </div>
         <div className="transform_slider">
-        
+        <Carousel responsive={responsive}>
+          <div className='slider_card'>
+              
+
+          </div>
+          <div className='slider_card'>
+              
+
+          </div>
+          <div className='slider_card'>
+              
+
+          </div>
+          <div className='slider_card'>
+              
+
+          </div>
+          <div className='slider_card'>
+              
+
+          </div>
+          <div className='slider_card'>
+              
+
+          </div>
+          
+        </Carousel>
         </div>    
     </div>
   )
