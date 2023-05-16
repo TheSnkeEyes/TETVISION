@@ -1,0 +1,17 @@
+.footer_container {
+    width: 100%;
+    height: auto;
+}
+
+.information_board_grid {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.information_board_grid h1 {
+    font-size: 1.35em;
+}
