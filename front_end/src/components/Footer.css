@@ -5,8 +5,7 @@
 
 .information_board_grid {
     width: 100%;
-    height: auto;
-    padding: 30px;
+    padding: 200px 40px;
     display: flex;
     gap: 100px;
     justify-content: center;
@@ -14,4 +13,15 @@
 
 .information_board_grid h1 {
     font-size: 1.35em;
+}
+
+.map_container {
+    width: 100%;
+    margin-right: 100px;
+}
+
+.mapouter iframe {
+    width: 100%;
+    height: 50vh;
+    margin-right: 30px;
 }
